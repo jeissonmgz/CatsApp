@@ -9,6 +9,5 @@ export default function App() {
         <Router />
       </NativeBaseProvider>
     </ProvidertCat>
-    
   );
 }
