@@ -1,0 +1,16 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@blocks/*": ["src/Blocks/*"],
+      "@data": ["src/Data"],
+      "@contexts/*": ["src/Contexts/*"],
+      "@models/*": ["src/Models/*"],
+      "@routes/*": ["src/Routes/*"],
+      "@utils/*": ["src/Utils"],
+      "@views/*": ["src/Views/*"]
+    },
+  }
+}
